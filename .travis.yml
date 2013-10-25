@@ -11,4 +11,4 @@ language:
     - java
 
 
-script: "./gradle cleanFlow testAll buildAll -i -s"
+script: "./gradlew cleanFlow testAll buildAll -i -s"
