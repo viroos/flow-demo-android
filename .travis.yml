@@ -10,5 +10,5 @@ before_install:
 language:
     - java
 
-script:
-    - gradle cleanFlow testAll buildAll
+
+script: "./gradle cleanFlow testAll buildAll -i -s"
