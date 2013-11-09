@@ -35,7 +35,7 @@ public class MainActivityTest {
         //when
 
         //then
-        Assertions.assertThat(invitationTextView.getText()).isEmpty();
+        Assertions.assertThat(invitationTextView.getText()).isNotEmpty();
     }
 
     @Test
